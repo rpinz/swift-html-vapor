@@ -12,8 +12,8 @@ let package = Package(
       targets: ["HtmlVaporSupportExample"]),
     ],
   dependencies: [
-    .package(url: "https://github.com/pointfreeco/swift-html.git", from: "0.3.1"),
-    .package(url: "https://github.com/vapor/vapor.git", from: "3.0.0"),
+    .package(url: "https://github.com/rpinz/swift-html.git", .branch("master")),
+    .package(url: "https://github.com/vapor/vapor.git", from: "3.3.1"),
     ],
   targets: [
     .target(
